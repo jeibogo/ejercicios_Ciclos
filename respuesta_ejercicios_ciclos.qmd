@@ -1,0 +1,27 @@
+---
+title: "Ejercicios 1 y 2"
+author: "Jeison Bogota"
+date: "2026-02-17"
+format:
+  html:
+    theme: cosmo
+    toc: true
+  pdf:
+    toc: true
+    number-sections: false
+    colorlinks: true
+---
+## Sobre el Ejercicio 1 (Indentación y Bloques):
+ Si estuvieras desarrollando el código en Python, ¿cómo sabe el computador qué instrucciones pertenecen dentro del ciclo for, cuáles pertenecen al if, y cuáles deben ejecutarse solo al final del programa? ¿Qué diferencia estructural existe frente a cómo lo resolverías en R o Julia?
+
+ Se diferencia en que python se guía de la tabulacion y los dos puntos. R necesita de parentesis y llaves para separar todo lo que va dentro de estas operaciones
+
+## Sobre el Ejercicio 2 (Ciclos Infinitos):
+ En el ciclo while de la simulación del río, ¿qué sucedería exactamente con la memoria y la ejecución del programa si olvidas incluir la instrucción que incrementa la variable lectura_actual en 1? ¿Por qué este riesgo no existe al usar un ciclo for?
+
+ porque el ciclo for necesita un rango. Solo ejecuta una cantidad exacta de veces. El ciclo while depende de si se tiene la condición del while como verdadera. Cuando sea falsa saldrá del mismo
+
+## Pregunta General (Operadores Lógicos):
+ Si estás programando en R o Julia, explica detalladamente por qué es peligroso usar el operador doble (&&) cuando intentas filtrar un vector completo de altitudes, y por qué en ese caso específico debes usar el operador sencillo (& o .&).
+
+ Uno es un operador lógico que interpreta un solo dato (&&). El otro toma varios datos y ve cuales cumplen. Es util para vectores, listas, etc.
