@@ -1,7 +1,7 @@
 ---
 title: "Ejercicios 1 y 2"
 author: "Jeison Bogota"
-date: "2026-02-17"
+date: today
 format:
   html:
     theme: cosmo
